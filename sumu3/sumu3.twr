@@ -1,0 +1,125 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+F:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml sumu3.twx sumu3.ncd -o sumu3.twr sumu3.pcf -ucf sumu3.ucf
+
+Design file:              sumu3.ncd
+Physical constraint file: sumu3.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock sl<0>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+a<0>        |    4.452(F)|    2.076(F)|c_not0001         |   0.000|
+a<1>        |    5.180(F)|    0.745(F)|c_not0001         |   0.000|
+a<2>        |    3.347(F)|    2.198(F)|c_not0001         |   0.000|
+b<0>        |    5.345(F)|    0.908(F)|c_not0001         |   0.000|
+b<1>        |    4.752(F)|    0.592(F)|c_not0001         |   0.000|
+b<2>        |    4.060(F)|    1.198(F)|c_not0001         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock sl<1>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+a<0>        |    5.373(F)|    0.925(F)|c_not0001         |   0.000|
+a<1>        |    6.101(F)|   -0.406(F)|c_not0001         |   0.000|
+a<2>        |    4.268(F)|    1.047(F)|c_not0001         |   0.000|
+b<0>        |    6.266(F)|   -0.243(F)|c_not0001         |   0.000|
+b<1>        |    5.673(F)|   -0.559(F)|c_not0001         |   0.000|
+b<2>        |    4.981(F)|    0.047(F)|c_not0001         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock sl<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+c<0>        |    8.180(F)|c_not0001         |   0.000|
+c<1>        |    8.447(F)|c_not0001         |   0.000|
+c<2>        |    7.936(F)|c_not0001         |   0.000|
+c<3>        |    7.936(F)|c_not0001         |   0.000|
+c<4>        |    8.180(F)|c_not0001         |   0.000|
+c<5>        |    8.362(F)|c_not0001         |   0.000|
+c<6>        |    8.383(F)|c_not0001         |   0.000|
+------------+------------+------------------+--------+
+
+Clock sl<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+c<0>        |    7.029(F)|c_not0001         |   0.000|
+c<1>        |    7.296(F)|c_not0001         |   0.000|
+c<2>        |    6.785(F)|c_not0001         |   0.000|
+c<3>        |    6.785(F)|c_not0001         |   0.000|
+c<4>        |    7.029(F)|c_not0001         |   0.000|
+c<5>        |    7.211(F)|c_not0001         |   0.000|
+c<6>        |    7.232(F)|c_not0001         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock sl<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sl<0>          |         |         |    3.729|    3.729|
+sl<1>          |         |         |    2.789|    2.789|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sl<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sl<0>          |         |         |    4.650|    4.650|
+sl<1>          |         |         |    3.710|    3.710|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Apr 21 16:44:24 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 150 MB
+
+
+

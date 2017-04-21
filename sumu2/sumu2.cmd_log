@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "F:/abc/sumu2/sumu2.xst" -ofn "F:/abc/sumu2/sumu2.syr" 
+xst -intstyle ise -ifn "F:/abc/sumu2/sumu2.xst" -ofn "F:/abc/sumu2/sumu2.syr" 
+xst -intstyle ise -ifn "F:/abc/sumu2/sumu2.xst" -ofn "F:/abc/sumu2/sumu2.syr" 
+xst -intstyle ise -ifn "F:/abc/sumu2/sumu2.xst" -ofn "F:/abc/sumu2/sumu2.syr" 
+xst -intstyle ise -ifn "F:/abc/sumu2/sumu2.xst" -ofn "F:/abc/sumu2/sumu2.syr" 
+xst -intstyle ise -ifn "F:/abc/sumu2/sumu2.xst" -ofn "F:/abc/sumu2/sumu2.syr" 
+xst -intstyle ise -ifn "F:/abc/sumu2/sumu2.xst" -ofn "F:/abc/sumu2/sumu2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sumu.ucf -p xc3s100e-cp132-5 sumu2.ngc sumu2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sumu2_map.ncd sumu2.ngd sumu2.pcf 
+par -w -intstyle ise -ol high -t 1 sumu2_map.ncd sumu2.ncd sumu2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumu2.twx sumu2.ncd -o sumu2.twr sumu2.pcf -ucf sumu.ucf 
+bitgen -intstyle ise -f sumu2.ut sumu2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sumu2.ucf -p xc3s100e-cp132-5 sumu2.ngc sumu2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sumu2_map.ncd sumu2.ngd sumu2.pcf 
+par -w -intstyle ise -ol high -t 1 sumu2_map.ncd sumu2.ncd sumu2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumu2.twx sumu2.ncd -o sumu2.twr sumu2.pcf -ucf sumu2.ucf 
+bitgen -intstyle ise -f sumu2.ut sumu2.ncd 
+xst -intstyle ise -ifn "G:/EDA/sumu2/sumu2.xst" -ofn "G:/EDA/sumu2/sumu2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sumu2.ucf -p xc3s100e-cp132-5 sumu2.ngc sumu2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sumu2_map.ncd sumu2.ngd sumu2.pcf 
+par -w -intstyle ise -ol high -t 1 sumu2_map.ncd sumu2.ncd sumu2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumu2.twx sumu2.ncd -o sumu2.twr sumu2.pcf -ucf sumu2.ucf 
+bitgen -intstyle ise -f sumu2.ut sumu2.ncd 
+xst -intstyle ise -ifn "D:/EDA/sumu2/sumu2.xst" -ofn "D:/EDA/sumu2/sumu2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sumu2.ucf -p xc3s100e-cp132-5 sumu2.ngc sumu2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sumu2_map.ncd sumu2.ngd sumu2.pcf 
+par -w -intstyle ise -ol high -t 1 sumu2_map.ncd sumu2.ncd sumu2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumu2.twx sumu2.ncd -o sumu2.twr sumu2.pcf -ucf sumu2.ucf 
+bitgen -intstyle ise -f sumu2.ut sumu2.ncd 

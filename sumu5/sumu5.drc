@@ -1,0 +1,8 @@
+Release 12.3 Drc M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 20 09:48:09 2017
+
+drc -z sumu5.ncd sumu5.pcf
+
+DRC detected 0 errors and 0 warnings.

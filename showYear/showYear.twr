@@ -1,0 +1,179 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+F:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml showYear.twx showYear.ncd -o showYear.twr showYear.pcf
+
+Design file:              showYear.ncd
+Physical constraint file: showYear.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.610|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data<0>        |sm_duan<0>     |    9.517|
+data<0>        |sm_duan<1>     |    8.340|
+data<0>        |sm_duan<2>     |    8.340|
+data<0>        |sm_duan<3>     |    9.519|
+data<0>        |sm_duan<4>     |    9.100|
+data<0>        |sm_duan<5>     |    9.304|
+data<0>        |sm_duan<6>     |    9.847|
+data<1>        |sm_duan<0>     |    9.206|
+data<1>        |sm_duan<1>     |    8.450|
+data<1>        |sm_duan<2>     |    8.450|
+data<1>        |sm_duan<3>     |    9.158|
+data<1>        |sm_duan<4>     |    9.099|
+data<1>        |sm_duan<5>     |    9.303|
+data<1>        |sm_duan<6>     |    9.917|
+data<2>        |sm_duan<0>     |    9.262|
+data<2>        |sm_duan<1>     |    8.590|
+data<2>        |sm_duan<2>     |    8.590|
+data<2>        |sm_duan<3>     |    9.237|
+data<2>        |sm_duan<4>     |    9.191|
+data<2>        |sm_duan<5>     |    9.395|
+data<2>        |sm_duan<6>     |    9.871|
+data<3>        |sm_duan<0>     |    9.646|
+data<3>        |sm_duan<1>     |    8.358|
+data<3>        |sm_duan<2>     |    8.358|
+data<3>        |sm_duan<3>     |    9.654|
+data<3>        |sm_duan<4>     |    9.158|
+data<3>        |sm_duan<5>     |    9.362|
+data<3>        |sm_duan<6>     |    9.834|
+data<4>        |sm_duan<0>     |    9.732|
+data<4>        |sm_duan<1>     |    8.555|
+data<4>        |sm_duan<2>     |    8.555|
+data<4>        |sm_duan<3>     |    9.734|
+data<4>        |sm_duan<4>     |    9.315|
+data<4>        |sm_duan<5>     |    9.519|
+data<4>        |sm_duan<6>     |   10.062|
+data<5>        |sm_duan<0>     |    9.116|
+data<5>        |sm_duan<1>     |    8.360|
+data<5>        |sm_duan<2>     |    8.360|
+data<5>        |sm_duan<3>     |    9.068|
+data<5>        |sm_duan<4>     |    9.009|
+data<5>        |sm_duan<5>     |    9.213|
+data<5>        |sm_duan<6>     |    9.827|
+data<6>        |sm_duan<0>     |    9.012|
+data<6>        |sm_duan<1>     |    8.340|
+data<6>        |sm_duan<2>     |    8.340|
+data<6>        |sm_duan<3>     |    8.987|
+data<6>        |sm_duan<4>     |    8.941|
+data<6>        |sm_duan<5>     |    9.145|
+data<6>        |sm_duan<6>     |    9.621|
+data<7>        |sm_duan<0>     |    9.584|
+data<7>        |sm_duan<1>     |    8.296|
+data<7>        |sm_duan<2>     |    8.296|
+data<7>        |sm_duan<3>     |    9.592|
+data<7>        |sm_duan<4>     |    9.096|
+data<7>        |sm_duan<5>     |    9.300|
+data<7>        |sm_duan<6>     |    9.772|
+data<8>        |sm_duan<0>     |    8.948|
+data<8>        |sm_duan<1>     |    7.771|
+data<8>        |sm_duan<2>     |    7.771|
+data<8>        |sm_duan<3>     |    8.950|
+data<8>        |sm_duan<4>     |    8.531|
+data<8>        |sm_duan<5>     |    8.735|
+data<8>        |sm_duan<6>     |    9.278|
+data<9>        |sm_duan<0>     |    8.594|
+data<9>        |sm_duan<1>     |    7.838|
+data<9>        |sm_duan<2>     |    7.838|
+data<9>        |sm_duan<3>     |    8.546|
+data<9>        |sm_duan<4>     |    8.487|
+data<9>        |sm_duan<5>     |    8.691|
+data<9>        |sm_duan<6>     |    9.305|
+data<10>       |sm_duan<0>     |    8.980|
+data<10>       |sm_duan<1>     |    8.308|
+data<10>       |sm_duan<2>     |    8.308|
+data<10>       |sm_duan<3>     |    8.955|
+data<10>       |sm_duan<4>     |    8.909|
+data<10>       |sm_duan<5>     |    9.113|
+data<10>       |sm_duan<6>     |    9.589|
+data<11>       |sm_duan<0>     |    9.309|
+data<11>       |sm_duan<1>     |    8.021|
+data<11>       |sm_duan<2>     |    8.021|
+data<11>       |sm_duan<3>     |    9.317|
+data<11>       |sm_duan<4>     |    8.821|
+data<11>       |sm_duan<5>     |    9.025|
+data<11>       |sm_duan<6>     |    9.497|
+data<12>       |sm_duan<0>     |    8.079|
+data<12>       |sm_duan<1>     |    6.902|
+data<12>       |sm_duan<2>     |    6.902|
+data<12>       |sm_duan<3>     |    8.081|
+data<12>       |sm_duan<4>     |    7.662|
+data<12>       |sm_duan<5>     |    7.866|
+data<12>       |sm_duan<6>     |    8.409|
+data<13>       |sm_duan<0>     |    7.871|
+data<13>       |sm_duan<1>     |    7.115|
+data<13>       |sm_duan<2>     |    7.115|
+data<13>       |sm_duan<3>     |    7.823|
+data<13>       |sm_duan<4>     |    7.764|
+data<13>       |sm_duan<5>     |    7.968|
+data<13>       |sm_duan<6>     |    8.582|
+data<14>       |sm_duan<0>     |    7.553|
+data<14>       |sm_duan<1>     |    6.881|
+data<14>       |sm_duan<2>     |    6.881|
+data<14>       |sm_duan<3>     |    7.528|
+data<14>       |sm_duan<4>     |    7.482|
+data<14>       |sm_duan<5>     |    7.686|
+data<14>       |sm_duan<6>     |    8.162|
+data<15>       |sm_duan<0>     |    8.167|
+data<15>       |sm_duan<1>     |    6.879|
+data<15>       |sm_duan<2>     |    6.879|
+data<15>       |sm_duan<3>     |    8.175|
+data<15>       |sm_duan<4>     |    7.679|
+data<15>       |sm_duan<5>     |    7.883|
+data<15>       |sm_duan<6>     |    8.355|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Apr 21 17:09:12 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 153 MB
+
+
+

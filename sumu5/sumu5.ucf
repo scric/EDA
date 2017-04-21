@@ -1,0 +1,7 @@
+NET "addr" LOC="P11";
+NET "in1<0>" LOC="L3";
+NET "in1<1>" LOC="K3";
+NET "in2<0>" LOC="B4";
+NET "in2<1>" LOC="G3";
+NET "Mout<0>" LOC="M5";
+NET "Mout<1>" LOC="M11";
