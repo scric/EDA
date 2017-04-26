@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/eda/jiancheng/jiancheng.xst" -ofn "D:/eda/jiancheng/jiancheng.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/eda/sanba/sanba.xst" -ofn "D:/eda/sanba/sanba.syr" 

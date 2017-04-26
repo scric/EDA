@@ -1,0 +1,3 @@
+verilog work "fourToOne.v"
+verilog work "test.v"
+verilog work "F:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/eda/liushuideng/liushuideng.xst" -ofn "D:/eda/liushuideng/liushuideng.syr" 

@@ -1,9 +1,0 @@
-NET "A1" LOC="P11";
-NET "A2" LOC="L3";
-NET "A3" LOC="K3";
-NET "A4" LOC="B4";
-NET "A5" LOC="G3";
-NET "A6" LOC="F3";
-NET "A7" LOC="E2";
-NET "OUT" LOC="P7";
-

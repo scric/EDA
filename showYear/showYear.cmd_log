@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "D:/EDA/showYear/showYear.xst" -ofn "D:/EDA/showYear/showYear.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 showYear.ngc showYear.ngd  
-map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o showYear_map.ncd showYear.ngd showYear.pcf 
-par -w -intstyle ise -ol high -t 1 showYear_map.ncd showYear.ncd showYear.pcf 
-trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml showYear.twx showYear.ncd -o showYear.twr showYear.pcf 
-bitgen -intstyle ise -f showYear.ut showYear.ncd 
